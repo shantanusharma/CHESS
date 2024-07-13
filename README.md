@@ -27,7 +27,7 @@ Utilizing large language models (LLMs) for transforming natural language questio
 
 To effectively retrieve the database catalogs and find the most similar database values to a specific question, preprocess the databases by following these steps:
 
-1. **Update the `run/run_preprocess.py` file** as follows:
+1. **Update the `run/run_preprocess.sh` file** as follows:
     ```python
     db_root_directory="data/dev/dev_databases"  # UPDATE THIS WITH THE PATH TO THE DATABASES
     db_id="all"
